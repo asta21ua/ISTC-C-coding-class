@@ -13,31 +13,8 @@ namespace OOP
  /// 5. Class-ը պետք է ունենա կոնստրուկտոր, որը ինիցիալիզացնի բոլոր վերը նշված field-ները:
  /// </summary>
 
-
-    public class Human //Creating public class Human with following  private fields: GivenName, FamilyName,Gender, Age, Weigth and Heigth 
-    {
-        private string GivenName;
-        private string FamilyName;
-        private string Gender;
-        private int Age;
-        private float Weight;
-        private float Height;
-
-        public Human(string givenName, string familyName, string gender, int age, float weight, float height)
-        {
-
-            this.GivenName = givenName;
-            this.FamilyName = familyName;
-            this.Gender = gender;
-            this.Age = age;
-            this.Weight = weight;
-            this.Height = height;
-        }
-
-
         class Program // Printing each parameter in with different methods
         {
-
             static void Main(string[] args)
             {
 
@@ -51,6 +28,4 @@ namespace OOP
 
             }
         }
-    }
-
 }

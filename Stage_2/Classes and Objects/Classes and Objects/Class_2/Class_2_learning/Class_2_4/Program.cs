@@ -48,7 +48,7 @@ namespace Class_2_4
             Console.WriteLine(instance.Field);
 
 
-            Console.WriteLine(new string('-', 50));
+            Console.WriteLine(new string('-', 20));
 
             instance.Field = "hello world";
             Console.WriteLine(instance.Field);                                      

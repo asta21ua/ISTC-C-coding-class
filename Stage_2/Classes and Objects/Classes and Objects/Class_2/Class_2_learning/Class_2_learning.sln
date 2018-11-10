@@ -5,15 +5,19 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_1", "Class_2\Class_2_1.csproj", "{074B7249-0CEA-4916-B8C2-5BAAF0FA113D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_2", "Class_2_2\Class_2_2.csproj", "{AB547A58-0076-47B5-8567-402C4D907348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_2_properties", "Class_2_2\Class_2_2_properties.csproj", "{AB547A58-0076-47B5-8567-402C4D907348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_3", "Class_2_3\Class_2_3.csproj", "{56A323EB-E699-4528-B821-B5DFB1AB004A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_3_properties", "Class_2_3\Class_2_3_properties.csproj", "{56A323EB-E699-4528-B821-B5DFB1AB004A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_4", "Class_2_4\Class_2_4.csproj", "{8A3F9B0B-7E53-45F7-A95A-A43B64595E7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_4_properties", "Class_2_4\Class_2_4_properties.csproj", "{8A3F9B0B-7E53-45F7-A95A-A43B64595E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_5", "Class_2_5\Class_2_5.csproj", "{4E1AB58A-276C-47A3-9EAE-F1033C55D5C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_5_properties", "Class_2_5\Class_2_5_properties.csproj", "{4E1AB58A-276C-47A3-9EAE-F1033C55D5C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_6_constructors", "Class_2_6\Class_2_6_constructors.csproj", "{ACFA2A84-5749-44F4-8507-F193F7AC1065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_7(8)_constructors", "Class_2_7_constructors\Class_2_7(8)_constructors.csproj", "{DA59E938-3048-454B-81AC-5871397EE8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_2_8(9) Classes", "Class_2_8(9) Classes\Class_2_8(9) Classes.csproj", "{08F4A2A8-9B28-4310-9BDA-3066AEB0FFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{ACFA2A84-5749-44F4-8507-F193F7AC1065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACFA2A84-5749-44F4-8507-F193F7AC1065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACFA2A84-5749-44F4-8507-F193F7AC1065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA59E938-3048-454B-81AC-5871397EE8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA59E938-3048-454B-81AC-5871397EE8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA59E938-3048-454B-81AC-5871397EE8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA59E938-3048-454B-81AC-5871397EE8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F4A2A8-9B28-4310-9BDA-3066AEB0FFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F4A2A8-9B28-4310-9BDA-3066AEB0FFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F4A2A8-9B28-4310-9BDA-3066AEB0FFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F4A2A8-9B28-4310-9BDA-3066AEB0FFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

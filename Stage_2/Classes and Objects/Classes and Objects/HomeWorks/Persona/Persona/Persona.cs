@@ -52,7 +52,7 @@ namespace Persona
         {
             Console.WriteLine($"Hi I'm {GivenName} {FamilyName} {Gender} I'm {Age} years old My weight is {Weight} and height {Height}");
         }
-
+        
 
     }
 }

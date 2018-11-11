@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Persona
 {
     class Persona
-    //Creating private class Human with following  private fields: givenName, familyname,gender, age, weigth and heigth 
+    //Creating private class Human with following  private fields: givenName, familyname, gender, age, weigth and heigth 
     {
         private string givenname;
         private string familyname;
@@ -19,42 +19,14 @@ namespace Persona
 
         // making of private field into public
 
-        public string GivenName
-        {
-            get { return givenname; }
-        }
+        public string GivenName { get; set; }
+        public string FamilyName { get; set; }
+        public string Gender { get; set; }
+        public int Age { get; set; }
+        public float Weight { get; set; }
+        public float Height { get; set; }
 
-        public string FamilyName
-        {
-            get { return familyname; }
 
-        }
-
-        public string Gender
-
-        {
-
-            get { return gender; }
-        }
-
-        public int Age
-        {
-
-            get { return age; }
-
-        }
-
-        public float Weight
-        {
-            get { return weight; }
-
-        }
-
-        public float Height
-        {
-            get { return height; }
-
-        }
 
         // using this statement
         // whan using this statement must!!! create default constructor like following
@@ -64,21 +36,22 @@ namespace Persona
 
         }
 
-
-        public Persona(string GivenName, string FamilyName) 
-            //string Gender, int Age, float Weight, float Height)
+        public Persona(string GivenName, string FamilyName, string Gender, int Age, float Weight, float Height)
         {
 
-            this.givenname = GivenName;
-            this.familyname = FamilyName;
-            this.gender = Gender;
-            this.age = Age;
-            this.weight = Weight;
-            this.height = Height;
+            givenname = GivenName;
+            familyname = FamilyName;
+            gender = Gender;
+            age = Age;
+            weight = Weight;
+            height = Height;
 
-            Console.WriteLine("GivenName, FamilyName, Gender, Age, Weight, Height");
         }
 
+        public void DiscribeYourself()
+        {
+            Console.WriteLine($"Hi I'm {GivenName} {FamilyName} {Gender} I'm {Age} years old My weight is {Weight} and height {Height}");
+        }
 
 
     }

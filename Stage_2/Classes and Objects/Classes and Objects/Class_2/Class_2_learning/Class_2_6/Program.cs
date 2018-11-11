@@ -11,7 +11,7 @@ namespace Class_2_6
         static void Main(string[] args)
         {
             //Using constructor by default
-            Point pointA = new Point();
+            var pointA = new Point();
             Console.WriteLine("pointA.X = {0} pointA.Y = {1}", pointA.X, pointA.Y);
 
             Console.WriteLine(new string('_', +30));

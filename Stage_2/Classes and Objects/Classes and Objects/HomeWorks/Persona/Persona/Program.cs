@@ -17,8 +17,23 @@ namespace Persona
 
         static void Main(string[] args)
         {
+            Console.WriteLine("************** Fun with Class************");
+    
+
             var persona1 = new Persona("Elizabeth", "Black", "female", 24, 68, 165);
+            var person2 = new Persona("Alex", "Smith", "Male", 36, 78, 179);
             persona1.DiscribeYourself();
+
+            Console.WriteLine();
+
+            persona1.Print();
+
+            Console.WriteLine();
+
+            person2.DiscribeYourself();
+
+            person2.Print();
+
 
             Console.ReadKey();
 

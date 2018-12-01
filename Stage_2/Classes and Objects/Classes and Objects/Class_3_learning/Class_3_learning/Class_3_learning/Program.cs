@@ -59,7 +59,7 @@ namespace Class_3_learning
             //Console.WriteLine(dog.name);
             dog.Print();
             
-            Animal cat = new Animal ("Mr. Snow", 3, 0,7);
+            Animal cat = new Animal ("Mr.Snow", 3, 0,7);
             cat.Print();
 
             //Animale.Count += 2;

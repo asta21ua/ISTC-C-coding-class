@@ -28,7 +28,7 @@ namespace Class_3_learning
 
         }
 
-        public Animal(string _name, int _age, float _happiness)
+        public Animal(string _name, int _age, int v, float _happiness)
         {
 
             name = _name;

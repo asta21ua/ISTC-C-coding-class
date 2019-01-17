@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Async_methodes
+namespace Async_methods
 {
     class Program
     {
@@ -33,7 +33,7 @@ namespace Async_methodes
         static void Method()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\nAsync methode was lode.");
+            Console.WriteLine("\nAsync method was lode.");
             Console.WriteLine("\n Secondary flow: ID {0}", Thread.CurrentThread.ManagedThreadId);
 
             for (int i = 0; i < 80; i++)
@@ -43,9 +43,9 @@ namespace Async_methodes
 
             }
 
-              Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Async operation was done.\n");
-          
+
 
 
         }

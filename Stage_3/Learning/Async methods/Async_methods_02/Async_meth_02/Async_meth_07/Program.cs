@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Async_meth_06
+namespace Async_meth_07
 {
     class Program
     {
         static void Main()
         {
-
             Console.WriteLine("Primary Flow: ID {0}", Thread.CurrentThread.ManagedThreadId);
 
             var myDeleagete = new Action(Method);
@@ -19,15 +18,16 @@ namespace Async_meth_06
             // the deleaget method whitch will be launched after the asynchronous operation would end
             var callback = new AsyncCallback(HandleCompletion);
 
-            myDeleagete.BeginInvoke(callback, null);
+            myDeleagete.BeginInvoke(callback, "Hello world");
 
             Console.WriteLine("The Primary Flow is continuing to work");
 
             //delay
 
             Console.ReadKey();
-            
+
         }
+
         static void Method()
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -36,20 +36,18 @@ namespace Async_meth_06
 
             for (int i = 0; i < 80; i++)
             {
-                Thread.Sleep(30);
+                Thread.Sleep(50);
                 Console.Write(".");
             }
-
-
+            Console.WriteLine("Asynchronous operation was ended.\n ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
         }
-
         static void HandleCompletion(IAsyncResult asyncResult)
         {
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Callback method Thread ID {0}", Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Infomation about Asynchronous operation - " + asyncResult.AsyncState);
             Console.ForegroundColor = ConsoleColor.Red;
-            
-
         }
     }
 }

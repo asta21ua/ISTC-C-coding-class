@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_meth_03", "Async_03\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_meth_05", "Async_meth_05\Async_meth_05.csproj", "{4CD6F7A5-2AC5-4647-8405-B53FB8CB86E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_meth_06", "Async_meth_06\Async_meth_06.csproj", "{8CFF7D33-87B6-4110-9E3A-6491A246CDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4CD6F7A5-2AC5-4647-8405-B53FB8CB86E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD6F7A5-2AC5-4647-8405-B53FB8CB86E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD6F7A5-2AC5-4647-8405-B53FB8CB86E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFF7D33-87B6-4110-9E3A-6491A246CDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFF7D33-87B6-4110-9E3A-6491A246CDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFF7D33-87B6-4110-9E3A-6491A246CDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFF7D33-87B6-4110-9E3A-6491A246CDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

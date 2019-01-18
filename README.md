@@ -1,2 +1,2 @@
 # ISTC-C#-coding-class
-C# homeworks
+C# learning/homeworks

@@ -14,9 +14,9 @@ namespace Async_meth_06
 
             Console.WriteLine("Primary Flow: ID {0}", Thread.CurrentThread.ManagedThreadId);
 
-            var myDelagete = new Action(Method);
+            var myDeleagete = new Action(Method);
 
-            // the delaget method whitch will be launched after the asynchronous operation would end
+            // the deleaget method whitch will be launched after the asynchronous operation would end
             var callback = new AsyncCallback(HandleCompletion);
 
             myDelagete.BeginInvoke(callback, null);

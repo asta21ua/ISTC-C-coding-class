@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Async methodes")]
+[assembly: AssemblyTitle("Async_meth_01")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Async methodes")]
+[assembly: AssemblyProduct("Async_meth_01")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("85d0c6e1-708a-4867-b195-39faa9c59c38")]
+[assembly: Guid("f4f6ebe4-2e4c-47d1-bfe0-0fe0a7b72dbb")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

@@ -5,11 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-
-
-
-
-namespace Async_methods
+namespace Async_meth_01
 {
     class Program
     {
@@ -46,10 +42,6 @@ namespace Async_methods
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Async operation was done.\n");
 
-
-
         }
-
-
     }
 }

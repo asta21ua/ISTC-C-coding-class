@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85D0C6E1-708A-4867-B195-39FAA9C59C38}</ProjectGuid>
+    <ProjectGuid>{8A4EB411-6139-4ADE-A085-044B301EDEFA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Async_methodes</RootNamespace>
-    <AssemblyName>Async methodes</AssemblyName>
+    <RootNamespace>Async_meth_04</RootNamespace>
+    <AssemblyName>Async_meth_04</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

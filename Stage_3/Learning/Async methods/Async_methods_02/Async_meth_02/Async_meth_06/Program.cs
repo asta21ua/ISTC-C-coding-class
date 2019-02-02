@@ -49,7 +49,6 @@ namespace Async_meth_06
             Console.WriteLine("Callback method Thread ID {0}", Thread.CurrentThread.ManagedThreadId);
             Console.ForegroundColor = ConsoleColor.Red;
             
-
         }
     }
 }

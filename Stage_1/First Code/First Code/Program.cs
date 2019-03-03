@@ -19,12 +19,28 @@ namespace First_Code
 
             Console.WriteLine($"Hello {name}");   // say hello
 
+            Calculator.Add(12,85);
+
             Console.ReadKey(); 
 
+        }
 
+    }
+        class Calculator             // creating class calculator
+        {
 
+          public static void Add(int x, int y) // object of class
+          {
+
+            int z= x + y;
+            Console.WriteLine($"Sum {x} + {y} = {z}"); 
+            
+          }
 
 
         }
-    }
 }
+
+
+
+        

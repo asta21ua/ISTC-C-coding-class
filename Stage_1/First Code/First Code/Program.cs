@@ -11,7 +11,20 @@ namespace First_Code
         static void Main(string[] args)
         {
             Console.WriteLine("*******Hello World!!!*******");
-            Console.ReadKey();         
+            //Console.ReadKey();         
+
+            Console.WriteLine("Please enter your name:  "); //Type your name
+            
+            string name = Console.ReadLine();
+
+            Console.WriteLine($"Hello {name}");   // say hello
+
+            Console.ReadKey(); 
+
+
+
+
+
         }
     }
 }
